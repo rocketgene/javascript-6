@@ -1,0 +1,38 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-projects
+    .inner-wrapper.flex-row-wrap.two-col
+      .project-info-box.box
+
+        h1= project.project_name
+
+        p= project.description
+
+      .project-tech-links-box.box
+        h6 Technologies
+        ul
+          //- Use an `each` iterator and interpolation to dynamically replace the li tags below with the technologies listed for this project
+          each tech in project.technologies
+            li= tech
+
+        //- Add the href values to the links below
+        a.btn-link(href=project.live_link) Live Demo
+        a.btn-link(href=project.github_link) GitHub Repo
+
+    .project-img-box.box
+
+      //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
+      img.project-img(src=project.image_urls[0], alt=`Square image of project titled ${project.project_name}`)
+      img.project-img(src=project.image_urls[1], alt=`Wide image of project titled ${project.project_name}`)
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

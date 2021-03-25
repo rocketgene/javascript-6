@@ -1,0 +1,45 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "Generates a random quote from a selection of five quotes every few seconds, and changes the background color.",
+            "technologies": ["javascript", "html", "css"],
+            "live_link": "https://rocketgene.github.io/javascript-1/",
+            "github_link": "https://github.com/rocketgene/javascript-1",
+            "image_urls": ["/static/images/p1_sq.png", "/static/images/p1_w.png"]
+        }, {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "A gallery of fictitious profiles displayed on page with pagination and filtering.",
+            "technologies": ["javascript", "html", "css"],
+            "live_link": "https://rocketgene.github.io/javascript-2/",
+            "github_link": "https://github.com/rocketgene/javascript-2",
+            "image_urls": ["/static/images/p2_sq.png", "/static/images/p2_w.png"]
+        }, {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "A fictional sign-up form featuring user input validation and some interactivity.",
+            "technologies": ["javascript", "html", "css"],
+            "live_link": "https://rocketgene.github.io/javascript-3/",
+            "github_link": "https://github.com/rocketgene/javascript-3",
+            "image_urls": ["/static/images/p3_sq.png", "/static/images/p3_w.png"]
+        }, {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "A Hangman for phrases built using javascript classes",
+            "technologies": ["javascript", "html", "css", "git"],
+            "live_link": "https://rocketgene.github.io/javascript-4/",
+            "github_link": "https://github.com/rocketgene/javascript-4",
+            "image_urls": ["/static/images/p4_sq.png", "/static/images/p4_w.png"]
+        }, {
+            "id": 4,
+            "project_name": "Random User Gallery",
+            "description": "A gallery of fictitious user profiles pulled from a public API",
+            "technologies": ["javascript", "html", "css", "git", "fetch and public APIs"],
+            "live_link": "https://rocketgene.github.io/javascript-5/",
+            "github_link": "https://github.com/rocketgene/javascript-5",
+            "image_urls": ["/static/images/p5_sq.png", "/static/images/p5_w.png"]
+        }
+    ]
+}

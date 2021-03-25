@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  div.container
+    h1= `Server Error`
+    h1= `Status code: ${err.status}`
+    p= `Error message: ${err.message}`
+
+    a.home(href=`/`) home
