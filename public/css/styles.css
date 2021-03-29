@@ -124,7 +124,8 @@ nav a {
 
 nav a span {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
+  color: black;
 }
 
 .sidebar {
